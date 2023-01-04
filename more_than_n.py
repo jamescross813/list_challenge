@@ -4,7 +4,7 @@ def more_than_n(lst, item, n):
     x=0
     for x in lst:
 
-        if x==len
+        if x==lengthlst:
             break
 
 #Uncomment the line below when your function is done
