@@ -6,7 +6,6 @@ def more_than_n(lst, item, n):
     for x in lst:
         if x>lengthlst-1:
             break
-        print(x)
         if x==item:
             sum+=1
         x+=1  
