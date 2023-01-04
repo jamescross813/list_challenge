@@ -1,4 +1,5 @@
 #Write your function here
+def remove_middle(lst):
 
 
 #Uncomment the line below when your function is done
