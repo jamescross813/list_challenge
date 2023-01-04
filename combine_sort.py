@@ -1,4 +1,5 @@
 #Write your function here
+def combine_sort(lst1, lst2):
 
 
 #Uncomment the line below when your function is done
