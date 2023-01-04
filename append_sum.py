@@ -8,6 +8,7 @@ def append_sum(lst):
         x+=1
         if x == length:
             break
-    
+    lst.append(sum) 
+    return lst
 #Uncomment the line below when your function is done
 print(append_sum([1, 1, 2]))
