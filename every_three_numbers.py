@@ -1,5 +1,6 @@
 #Write your function here
 def ever_three_numbers(start):
+    numlst =[]
     if start== 100:
         return []
     i = start
