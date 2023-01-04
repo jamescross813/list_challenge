@@ -2,11 +2,18 @@
 def more_than_n(lst, item, n):
     lengthlst= len(lst)
     x=0
+    sum =0
     for x in lst:
-
-        x+=1
-        if x==lengthlst-1:
+        if x>lengthlst-1:
             break
+        print(x)
+        if x==item:
+            sum+=1
+        x+=1  
+    if sum > n:
+        return True
+    else:
+        return False
 
 #Uncomment the line below when your function is done
-#print(more_than_n([2, 4, 6, 2, 3, 2, 1, 2], 2, 3))
+print(more_than_n([2, 3, 4], 2, 0)) 
