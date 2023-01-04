@@ -1,10 +1,11 @@
 #Write your function here
 def more_than_n(lst, item, n):
-    lengthlst= len(lst)-1
+    lengthlst= len(lst)
     x=0
     for x in lst:
 
-        if x==lengthlst:
+        x+=1
+        if x==lengthlst-1:
             break
 
 #Uncomment the line below when your function is done
